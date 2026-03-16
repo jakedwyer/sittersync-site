@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — SitterSync</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1d1d1f; background: #fff; line-height: 1.6; }
+    .container { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+    .effective { font-size: 14px; color: #6e6e73; margin-bottom: 40px; }
+    h2 { font-size: 20px; font-weight: 600; margin-top: 36px; margin-bottom: 12px; }
+    h3 { font-size: 16px; font-weight: 600; margin-top: 24px; margin-bottom: 8px; }
+    p, li { font-size: 15px; color: #1d1d1f; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e5e5e7; }
+    th { font-weight: 600; color: #6e6e73; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back { display: inline-block; margin-bottom: 24px; font-size: 14px; color: #0066cc; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="./">&larr; SitterSync</a>
+    <h1>Privacy Policy</h1>
+    <p class="effective">Effective March 16, 2026 &middot; Last updated March 16, 2026</p>
+
+    <h2>Overview</h2>
+    <p>SitterSync ("we", "our", "us") is a household babysitter management app for iOS. This privacy policy explains how we collect, use, and protect your information.</p>
+
+    <h2>Information We Collect</h2>
+
+    <h3>Account Information</h3>
+    <ul>
+      <li><strong>Email address</strong> — used for authentication and account recovery</li>
+      <li><strong>Display name</strong> — shown to your household partner</li>
+      <li><strong>Household membership</strong> — which household you belong to</li>
+    </ul>
+
+    <h3>App Data</h3>
+    <ul>
+      <li><strong>Babysitter contacts</strong> — names, phone numbers, hourly rates, and notes you add</li>
+      <li><strong>Events</strong> — babysitting bookings you create (dates, times, assigned sitter)</li>
+      <li><strong>Payments</strong> — payment records you log (amounts, dates, Venmo status)</li>
+    </ul>
+
+    <h3>Automatically Collected</h3>
+    <ul>
+      <li><strong>Usage analytics</strong> — screen views and feature usage (anonymized, no personally identifiable information)</li>
+      <li><strong>Error reports</strong> — crash data and error logs via Sentry (no personal data included)</li>
+      <li><strong>Subscription status</strong> — managed by RevenueCat for in-app purchase processing</li>
+    </ul>
+
+    <h3>Optional Integrations</h3>
+    <ul>
+      <li><strong>Google Calendar</strong> — if you choose to connect, we access your calendar to sync babysitting events. We do not read or store other calendar data.</li>
+      <li><strong>Apple Sign-In</strong> — if you sign in with Apple, we receive your name and email (or a private relay address if you choose to hide your email).</li>
+    </ul>
+
+    <h2>Information We Do Not Collect</h2>
+    <ul>
+      <li>Location data</li>
+      <li>Health or fitness data</li>
+      <li>Financial information (Venmo payments are initiated via deep link; we do not process or store payment credentials)</li>
+      <li>Browsing history</li>
+      <li>Contacts from your phone's address book</li>
+      <li>Photos or media</li>
+    </ul>
+
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li><strong>Provide the service</strong> — store your sitters, events, and payments so both household parents can access them</li>
+      <li><strong>Sync in real-time</strong> — deliver instant updates between household members via Supabase Realtime</li>
+      <li><strong>Process subscriptions</strong> — manage your Premium subscription through RevenueCat and Apple In-App Purchase</li>
+      <li><strong>Improve the app</strong> — anonymized usage analytics help us understand which features are used and where issues occur</li>
+      <li><strong>Send notifications</strong> — event reminders and payment nudges (you control these in Settings)</li>
+    </ul>
+
+    <h2>Data Storage and Security</h2>
+    <ul>
+      <li>All data is stored in Supabase (hosted on AWS US-West-2, Oregon)</li>
+      <li>Row-Level Security ensures each household can only access its own data</li>
+      <li>Authentication tokens are stored in iOS Secure Keychain via Expo SecureStore</li>
+      <li>All data transmission uses HTTPS/TLS encryption</li>
+      <li>We do not sell, rent, or share your personal data with third parties</li>
+    </ul>
+
+    <h2>Data Sharing</h2>
+    <p>We share data only with the following service providers, solely to operate the app:</p>
+    <table>
+      <thead>
+        <tr><th>Provider</th><th>Purpose</th><th>Data Shared</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Supabase</td><td>Database and authentication</td><td>Account and app data</td></tr>
+        <tr><td>RevenueCat</td><td>Subscription management</td><td>Anonymous user ID, purchase receipts</td></tr>
+        <tr><td>Sentry</td><td>Error monitoring</td><td>Anonymized crash reports</td></tr>
+        <tr><td>PostHog</td><td>Usage analytics</td><td>Anonymized usage events</td></tr>
+        <tr><td>Google</td><td>Calendar sync (optional)</td><td>Calendar events you choose to sync</td></tr>
+      </tbody>
+    </table>
+    <p>We do not sell your data. We do not use your data for advertising.</p>
+
+    <h2>Your Rights</h2>
+    <ul>
+      <li><strong>Access</strong> — view all your data within the app at any time</li>
+      <li><strong>Delete</strong> — request account deletion by contacting us; we will delete all your data within 30 days</li>
+      <li><strong>Export</strong> — contact us to request a copy of your data</li>
+      <li><strong>Opt out of analytics</strong> — contact us to opt out of anonymized usage tracking</li>
+    </ul>
+
+    <h2>Household Data</h2>
+    <p>SitterSync is designed for two-parent households. When you join a household, both members can see and edit shared data (sitters, events, payments). If you leave a household, you lose access to that household's data.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>SitterSync is not directed at children under 13. We do not knowingly collect personal information from children. The app is used by parents to manage babysitter logistics.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. We will notify you of material changes through the app or via email.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy questions, data requests, or concerns:</p>
+    <ul>
+      <li>Email: <a href="mailto:privacy@sittersync.app">privacy@sittersync.app</a></li>
+      <li>Support: <a href="support.html">sittersync.app/support</a></li>
+    </ul>
+  </div>
+</body>
+</html>
