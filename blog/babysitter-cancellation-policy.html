@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Babysitter Cancellation Policy: What's Actually Fair for Parents and Sitters</title>
+  <meta name="description" content="Every family needs a babysitter cancellation policy — and most don't have one until there's already an awkward situation. Here's what's fair, how to have the conversation, and what to do when real life happens.">
+  <link rel="canonical" href="https://sitterlark.com/blog/babysitter-cancellation-policy">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Babysitter Cancellation Policy: What's Actually Fair for Parents and Sitters">
+  <meta property="og:description" content="Every family needs a cancellation policy before they need it. Here's the standard tiers, what sitters actually expect, and how to have the conversation without making it weird.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sitterlark.com/blog/babysitter-cancellation-policy">
+  <meta property="og:image" content="https://sitterlark.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-04-08">
+  <meta property="article:author" content="SitterLark">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Babysitter Cancellation Policy: What's Actually Fair for Parents and Sitters">
+  <meta name="twitter:description" content="The standard cancellation tiers, what sitters expect vs. what parents assume, and how to have the conversation without making it weird.">
+  <meta name="twitter:image" content="https://sitterlark.com/og-image.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --cream: #FAF7F2; --cream-dark: #F0EBE3; --ink: #1C1814;
+      --ink-muted: #7A6B60; --ink-faint: #B5A89E;
+      --accent: #B84120; --accent-warm: #D4572A; --surface: #EEEAE3;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--cream); color: var(--ink); font-family: 'DM Sans', sans-serif; font-size: 17px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 18px 40px; display: flex; align-items: center; justify-content: space-between; background: rgba(250,247,242,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--surface); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 21px; font-weight: 600; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+    .nav-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--ink); color: var(--cream); text-decoration: none; font-size: 13px; font-weight: 500; padding: 9px 18px; border-radius: 100px; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--accent); }
+
+    .article-wrapper { max-width: 680px; margin: 0 auto; padding: 120px 24px 80px; }
+
+    .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+    .article-category { font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); background: rgba(184,65,32,0.08); padding: 4px 10px; border-radius: 100px; text-decoration: none; }
+    .article-date { font-size: 13px; color: var(--ink-muted); }
+
+    h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px,5vw,46px); font-weight: 500; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 20px; }
+    .article-intro { font-size: 18px; line-height: 1.65; color: var(--ink-muted); border-left: 3px solid var(--accent); padding-left: 20px; margin-bottom: 48px; }
+
+    h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(22px,3vw,28px); font-weight: 600; letter-spacing: -0.01em; color: var(--ink); margin: 52px 0 16px; line-height: 1.2; }
+    h3 { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: var(--ink); margin: 0 0 6px; }
+    p { margin-bottom: 20px; }
+    strong { font-weight: 500; }
+    ul, ol { margin: 0 0 24px 24px; }
+    li { margin-bottom: 8px; }
+
+    /* Policy tiers — the 3-level cancellation framework */
+    .policy-tiers { display: flex; flex-direction: column; gap: 12px; margin: 28px 0; }
+    .policy-tier { border-radius: 12px; padding: 20px 24px; display: grid; grid-template-columns: 1fr 2fr; gap: 16px; align-items: start; }
+    .policy-tier.tier-green { background: rgba(22,101,52,0.05); border: 1px solid rgba(22,101,52,0.15); }
+    .policy-tier.tier-yellow { background: rgba(180,130,20,0.06); border: 1px solid rgba(180,130,20,0.18); }
+    .policy-tier.tier-red { background: rgba(184,65,32,0.06); border: 1px solid rgba(184,65,32,0.15); }
+    .tier-timeframe { font-size: 13px; font-weight: 600; }
+    .tier-green .tier-timeframe { color: #166534; }
+    .tier-yellow .tier-timeframe { color: #854d0e; }
+    .tier-red .tier-timeframe { color: var(--accent); }
+    .tier-detail { font-size: 14px; color: var(--ink-muted); line-height: 1.55; }
+    .tier-detail strong { color: var(--ink); }
+
+    /* Expectations gap grid */
+    .gap-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 28px 0; }
+    .gap-col { border-radius: 12px; padding: 20px 22px; }
+    .gap-col.parents { background: var(--cream-dark); border: 1px solid var(--surface); }
+    .gap-col.sitters { background: rgba(184,65,32,0.05); border: 1px solid rgba(184,65,32,0.15); }
+    .gap-col h4 { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 12px; }
+    .gap-col.parents h4 { color: var(--ink-muted); }
+    .gap-col.sitters h4 { color: var(--accent); }
+    .gap-col ul { margin: 0; padding-left: 16px; }
+    .gap-col li { font-size: 14px; color: var(--ink-muted); margin-bottom: 8px; line-height: 1.5; }
+
+    /* Script box — for the actual conversation template */
+    .script-box { background: var(--ink); border-radius: 14px; padding: 24px 28px; margin: 28px 0; }
+    .script-box .script-label { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(250,247,242,0.5); margin-bottom: 16px; }
+    .script-line { display: flex; gap: 12px; margin-bottom: 16px; align-items: flex-start; }
+    .script-line:last-child { margin-bottom: 0; }
+    .speaker { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; min-width: 64px; padding-top: 3px; }
+    .speaker.parent { color: rgba(250,247,242,0.5); }
+    .script-text { font-size: 15px; color: rgba(250,247,242,0.9); font-style: italic; line-height: 1.55; }
+
+    /* Tip box */
+    .tip-box { background: rgba(184,65,32,0.05); border: 1px solid rgba(184,65,32,0.15); border-radius: 12px; padding: 20px 24px; margin: 28px 0; }
+    .tip-box .tip-label { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+    .tip-box p { font-size: 15px; color: var(--ink); margin: 0; line-height: 1.6; }
+
+    .cta-block { background: var(--ink); color: var(--cream); border-radius: 16px; padding: 36px 40px; margin: 52px 0 40px; text-align: center; }
+    .cta-block h3 { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--cream); margin-bottom: 12px; letter-spacing: -0.01em; }
+    .cta-block p { color: rgba(250,247,242,0.7); font-size: 15px; margin-bottom: 24px; }
+    .cta-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--cream); text-decoration: none; font-size: 15px; font-weight: 500; padding: 14px 28px; border-radius: 100px; transition: background 0.2s, transform 0.15s; }
+    .cta-btn:hover { background: #cc4a24; transform: translateY(-1px); }
+    .cta-note { display: block; font-size: 12px; color: rgba(250,247,242,0.5); margin-top: 12px; }
+
+    .related-posts { margin-top: 52px; padding-top: 32px; border-top: 1px solid var(--surface); }
+    .related-posts h4 { font-size: 13px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 16px; }
+    .related-link { display: block; color: var(--accent); text-decoration: none; font-size: 15px; font-weight: 500; margin-bottom: 10px; }
+    .related-link:hover { text-decoration: underline; }
+
+    footer { background: var(--surface); padding: 32px 40px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 19px; font-weight: 600; color: var(--ink); text-decoration: none; }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { font-size: 13px; color: var(--ink-muted); text-decoration: none; }
+    .footer-links a:hover { color: var(--ink); }
+    .footer-copy { font-size: 12px; color: var(--ink-faint); width: 100%; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      .article-wrapper { padding: 100px 20px 60px; }
+      .cta-block { padding: 28px 24px; }
+      .policy-tier { grid-template-columns: 1fr; gap: 8px; }
+      .gap-grid { grid-template-columns: 1fr; }
+      footer { padding: 24px 20px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Babysitter Cancellation Policy: What's Actually Fair for Parents and Sitters",
+    "description": "Every family needs a babysitter cancellation policy before they need it. Here's what's fair, how to have the conversation, and what to do when real life genuinely gets in the way.",
+    "author": { "@type": "Organization", "name": "SitterLark" },
+    "publisher": { "@type": "Organization", "name": "SitterLark", "url": "https://sitterlark.com" },
+    "datePublished": "2026-04-08",
+    "url": "https://sitterlark.com/blog/babysitter-cancellation-policy"
+  }
+  </script>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">SitterLark</a>
+    <a href="../index.html#waitlist" class="nav-cta app-store-link">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download Free
+    </a>
+  </nav>
+
+  <article class="article-wrapper">
+
+    <div class="article-meta">
+      <a href="./index.html" class="article-category">Parenting</a>
+      <span class="article-date">April 8, 2026 · 6 min read</span>
+    </div>
+
+    <h1>Babysitter Cancellation Policy: What's Actually Fair for Parents and Sitters</h1>
+
+    <p class="article-intro">Most families don't think about a cancellation policy until they're in an awkward situation that already went wrong. Here's what fair looks like — for both sides — and how to have the conversation before you need it.</p>
+
+    <p>Babysitting is an informal relationship, which is exactly what makes cancellation so fraught. There's no contract, no HR department, no standard operating procedure. When one side cancels — whether it's a parent whose plans changed or a sitter who got a better offer — both parties are navigating by gut instinct.</p>
+
+    <p>The gut instinct is usually wrong, because parents and sitters have genuinely different mental models of what a cancellation means. Spelling it out ahead of time — ideally on the first or second booking — removes almost all of the friction.</p>
+
+    <h2>Why You Need a Policy Before You Need It</h2>
+
+    <p>The first time you cancel last-minute with no compensation, your sitter will probably let it go. They won't bring it up. But they'll think about it. The second time, they'll be slightly less available. By the third time, they've quietly shifted you from "primary family" to "backup only."</p>
+
+    <p>The same dynamic runs in reverse. A sitter who cancels the morning of a date night without consequences will do it again. Not out of malice — just because there was no signal that it was a serious problem.</p>
+
+    <p>A cancellation policy isn't about being legalistic or formal. It's about both sides having the same expectations so neither one is silently frustrated. It's one of the things that separates families with stable, long-term sitter relationships from families who are always scrambling.</p>
+
+    <p>For more on what holds sitter relationships together long-term, see our guide to <a href="./manage-shared-babysitters-two-parents.html">managing babysitters as a two-parent household</a>.</p>
+
+    <h2>The Standard Tiers: What Most Families Use</h2>
+
+    <p>There's no universal standard, but there's a common-sense framework that most families and sitters will find fair. It's based on how much notice is given:</p>
+
+    <div class="policy-tiers">
+      <div class="policy-tier tier-green">
+        <div class="tier-timeframe">24+ hours notice</div>
+        <div class="tier-detail"><strong>No cancellation pay required.</strong> Both sides have time to adjust. This is the norm, and most sitters don't expect anything for a cancellation with a day's notice. A simple thank-you goes a long way.</div>
+      </div>
+      <div class="policy-tier tier-yellow">
+        <div class="tier-timeframe">Same-day cancellation</div>
+        <div class="tier-detail"><strong>Half pay for the planned hours.</strong> The sitter has already cleared their evening. If the job was going to be 4 hours at $18/hr ($72 total), half pay means $36. Some families do a flat "inconvenience payment" of $20–30 — this works fine too as long as both sides agree in advance.</div>
+      </div>
+      <div class="policy-tier tier-red">
+        <div class="tier-timeframe">Under 2 hours notice (or cancellation after arrival)</div>
+        <div class="tier-detail"><strong>Full pay for the planned hours.</strong> The sitter has made firm plans around this job — or already shown up. Full pay is the right call here, and failing to offer it is the fastest way to lose a sitter permanently. This tier almost never comes up if the family has a same-day policy already in place.</div>
+      </div>
+    </div>
+
+    <p>These tiers apply to <em>parent</em> cancellations. Sitter-initiated cancellations are a separate conversation (covered below).</p>
+
+    <h2>The Expectations Gap</h2>
+
+    <p>The reason cancellation is awkward isn't bad intentions — it's that parents and sitters often start from genuinely different assumptions. Neither is wrong. They've just never compared notes.</p>
+
+    <div class="gap-grid">
+      <div class="gap-col parents">
+        <h4>What parents often assume</h4>
+        <ul>
+          <li>Cancelling is fine as long as you're apologetic</li>
+          <li>The sitter understands that "stuff comes up"</li>
+          <li>Last-minute cancellations don't need compensation if it's a rare event</li>
+          <li>There's no real financial impact — the sitter wasn't counting on the money yet</li>
+          <li>The relationship is casual enough that this stuff doesn't need to be spelled out</li>
+        </ul>
+      </div>
+      <div class="gap-col sitters">
+        <h4>What sitters often experience</h4>
+        <ul>
+          <li>Said no to another job because of this booking</li>
+          <li>Made plans around this schedule (and declined social invitations)</li>
+          <li>Was already counting on the income</li>
+          <li>Feels awkward bringing up compensation but notices when it's not offered</li>
+          <li>Won't complain, but will quietly deprioritize this family</li>
+        </ul>
+      </div>
+    </div>
+
+    <p>The gap isn't a values problem — it's an information problem. The sitter hasn't told you about the other job she turned down. You don't realize she'd already told her roommate she'd have money for rent this weekend. A quick policy conversation fills the gap before it creates resentment.</p>
+
+    <h2>How to Have the Conversation Without Making It Weird</h2>
+
+    <p>This is where most parents get stuck. Bringing up a "cancellation policy" sounds oddly formal for what is, functionally, hiring your neighbor's college daughter to watch your kids on Friday.</p>
+
+    <p>The trick is to frame it as a <em>mutual</em> agreement — not as rules you're imposing on them. You're establishing how you treat cancellations in both directions. That framing changes everything.</p>
+
+    <div class="script-box">
+      <div class="script-label">Sample conversation — first or second booking</div>
+      <div class="script-line">
+        <span class="speaker parent">Parent:</span>
+        <span class="script-text">"Hey, before we start booking regularly — we wanted to be upfront about how we handle cancellations. If we ever need to cancel same-day, we always pay half, and if it's really last-minute we do full pay. We just think that's fair since you're holding the time for us."</span>
+      </div>
+      <div class="script-line">
+        <span class="speaker parent">Parent:</span>
+        <span class="script-text">"And if you ever need to cancel, same deal — just give us as much notice as you can and we totally understand that stuff happens."</span>
+      </div>
+    </div>
+
+    <p>That's it. Two sentences. Most sitters will be visibly relieved — they've sat with families who never brought this up and it didn't end well. The fact that you're raising it signals that you're a thoughtful family to work with.</p>
+
+    <div class="tip-box">
+      <div class="tip-label">Timing matters</div>
+      <p>The best time for this conversation is before the first or second booking — when everything is still hypothetical. Having it after a cancellation incident (from either side) is harder and more charged. Treat it like agreeing on a rate: cover it once early, then it's settled.</p>
+    </div>
+
+    <h2>When Life Genuinely Happens</h2>
+
+    <p>Policies exist for normal situations. Life also has genuinely abnormal situations: your kid woke up with a 103° fever, there was a family emergency, the sitter's grandmother was hospitalized. These don't fit neatly into a policy framework, and they shouldn't have to.</p>
+
+    <p>A few principles for the gray areas:</p>
+
+    <ul>
+      <li><strong>If your child is sick, don't send your sitter into a sick house.</strong> Cancel with as much notice as possible. Offer to compensate — most sitters in a genuine emergency situation will decline, but offering matters.</li>
+      <li><strong>If the sitter has a real emergency, waive the policy entirely.</strong> Holding a sitter to a cancellation policy when their parent is in the hospital is the fastest way to end the relationship. Relationships exist outside the policy.</li>
+      <li><strong>Distinguish patterns from exceptions.</strong> A sitter who cancels twice in six months is probably reliable. A sitter who has cancelled twice in three weeks has a pattern, and that's a different conversation — not about the policy, but about fit. See our guide to <a href="./babysitter-contact-list.html">tracking what you know about each sitter</a> so you can spot these patterns.</li>
+    </ul>
+
+    <p>The goal of a policy isn't to cover every scenario. It's to handle the ordinary cases automatically so that the extraordinary ones can be handled with grace instead of precedent-setting ambiguity.</p>
+
+    <h2>What About Rate Adjustments for Reliability?</h2>
+
+    <p>Some families add a small reliability premium to their sitter's rate for sitters who have never cancelled. This isn't universal, but it works — a sitter who knows she earns $1/hour more than the market rate for being the go-to, never-cancels sitter has a tangible reason to protect that status.</p>
+
+    <p>This is worth considering if you have a sitter who has become genuinely essential to your family's schedule. See our <a href="./babysitter-rates-how-much-to-pay.html">guide to babysitter rates</a> for how to think about rate structure and when to raise.</p>
+
+    <h2>Storing Your Policy in SitterLark</h2>
+
+    <p>Once you've agreed on a policy with a sitter, write it down somewhere both parents can see. Not in a text thread that will get buried — in the sitter's profile.</p>
+
+    <p>SitterLark lets you store notes for each sitter in their profile: their agreed rate, availability preferences, special skills, and yes, any agreed cancellation terms. When both parents can see the same notes, you never have the "I thought we agreed on half-pay for same-day" conversation at midnight after a cancelled date night.</p>
+
+    <div class="cta-block">
+      <h3>Keep your sitter agreements in one place.</h3>
+      <p>SitterLark stores your cancellation policy, agreed rate, and sitter notes where both parents can see them — so nothing gets lost in a text thread.</p>
+      <a href="../index.html#waitlist" class="cta-btn app-store-link">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Download SitterLark Free
+      </a>
+      <span class="cta-note">Free for up to 2 sitters. No credit card required.</span>
+    </div>
+
+    <div class="related-posts">
+      <h4>More from SitterLark</h4>
+      <a href="./manage-shared-babysitters-two-parents.html" class="related-link">
+        How to Manage Babysitters as a Two-Parent Household →
+      </a>
+      <a href="./babysitter-rates-how-much-to-pay.html" class="related-link">
+        How Much Should You Pay a Babysitter in 2026? →
+      </a>
+      <a href="./babysitter-contact-list.html" class="related-link">
+        What to Include in a Babysitter Contact List →
+      </a>
+      <a href="./babysitter-payment-tracking.html" class="related-link">
+        How to Track Babysitter Payments Without the Awkward Math →
+      </a>
+      <a href="./babysitter-schedule-two-parents.html" class="related-link">
+        How to Set Up a Family Babysitter Schedule →
+      </a>
+      <a href="./babysitter-google-calendar.html" class="related-link">
+        How to Add Your Babysitter to Google Calendar →
+      </a>
+      <a href="./how-to-find-a-babysitter.html" class="related-link">
+        How to Find a Babysitter: The Honest Guide →
+      </a>
+      <a href="./babysitter-interview-questions.html" class="related-link">
+        Babysitter Interview Questions: 12 That Actually Work →
+      </a>
+      <a href="./overnight-babysitter-checklist.html" class="related-link">
+        Overnight Babysitter Checklist: Everything to Leave Before You Go →
+      </a>
+      <a href="./venmo-babysitter-payment.html" class="related-link">
+        How to Use Venmo for Babysitter Payments (and What to Put in the Note) →
+      </a>
+    </div>
+
+  </article>
+
+  <footer>
+    <a href="../index.html" class="footer-logo">SitterLark</a>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="./index.html">Blog</a>
+      <a href="../support.html">Support</a>
+    </div>
+    <p class="footer-copy">© 2026 SitterLark. Built for families who take babysitting seriously.</p>
+  </footer>
+
+  <script>
+    const APP_STORE_URL = null;
+    if (APP_STORE_URL) {
+      document.querySelectorAll('.app-store-link').forEach(el => {
+        el.href = APP_STORE_URL;
+      });
+    }
+  </script>
+
+</body>
+</html>
