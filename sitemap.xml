@@ -45,6 +45,20 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://sitterlark.com/blog/babysitter-interview-questions</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sitterlark.com/blog/overnight-babysitter-checklist</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Blog index -->
   <url>
     <loc>https://sitterlark.com/blog/</loc>
