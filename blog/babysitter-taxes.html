@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do You Have to Pay Taxes for a Babysitter? The Household Employer Rules Explained</title>
+  <meta name="description" content="If you pay a babysitter more than the IRS household employee threshold in a year, you may have tax obligations. Here's what that means, what you actually owe, and what you can deduct.">
+  <link rel="canonical" href="https://sitterlark.com/blog/babysitter-taxes">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Do You Have to Pay Taxes for a Babysitter? The Household Employer Rules Explained">
+  <meta property="og:description" content="Most families don't know where the line is. Here's the IRS threshold, what triggers household employer status, and what the Child and Dependent Care Credit covers.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sitterlark.com/blog/babysitter-taxes">
+  <meta property="og:image" content="https://sitterlark.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-04-10">
+  <meta property="article:author" content="SitterLark">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Do You Have to Pay Taxes for a Babysitter?">
+  <meta name="twitter:description" content="The IRS threshold, household employer obligations, and the Child and Dependent Care Credit — explained for actual parents, not accountants.">
+  <meta name="twitter:image" content="https://sitterlark.com/og-image.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --cream: #FAF7F2; --cream-dark: #F0EBE3; --ink: #1C1814;
+      --ink-muted: #7A6B60; --ink-faint: #B5A89E;
+      --accent: #B84120; --accent-warm: #D4572A; --surface: #EEEAE3;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--cream); color: var(--ink); font-family: 'DM Sans', sans-serif; font-size: 17px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 18px 40px; display: flex; align-items: center; justify-content: space-between; background: rgba(250,247,242,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--surface); }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 21px; font-weight: 600; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+    .nav-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--ink); color: var(--cream); text-decoration: none; font-size: 13px; font-weight: 500; padding: 9px 18px; border-radius: 100px; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--accent); }
+
+    .article-wrapper { max-width: 680px; margin: 0 auto; padding: 120px 24px 80px; }
+
+    .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+    .article-category { font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); background: rgba(184,65,32,0.08); padding: 4px 10px; border-radius: 100px; text-decoration: none; }
+    .article-date { font-size: 13px; color: var(--ink-muted); }
+
+    h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px,5vw,46px); font-weight: 500; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 20px; }
+    .article-intro { font-size: 18px; line-height: 1.65; color: var(--ink-muted); border-left: 3px solid var(--accent); padding-left: 20px; margin-bottom: 48px; }
+
+    h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(22px,3vw,28px); font-weight: 600; letter-spacing: -0.01em; color: var(--ink); margin: 52px 0 16px; line-height: 1.2; }
+    h3 { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: var(--ink); margin: 0 0 6px; }
+    p { margin-bottom: 20px; }
+    strong { font-weight: 500; }
+    a { color: var(--accent); }
+    ul, ol { margin: 0 0 24px 24px; }
+    li { margin-bottom: 8px; }
+
+    /* Decision framework */
+    .decision-block { display: flex; flex-direction: column; gap: 12px; margin: 28px 0; }
+    .decision-row { border-radius: 12px; padding: 20px 24px; display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; }
+    .decision-row.yes { background: rgba(22,101,52,0.05); border: 1px solid rgba(22,101,52,0.15); }
+    .decision-row.no { background: var(--cream-dark); border: 1px solid var(--surface); }
+    .decision-label { font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding-top: 2px; min-width: 60px; }
+    .decision-row.yes .decision-label { color: #166534; }
+    .decision-row.no .decision-label { color: var(--ink-muted); }
+    .decision-detail strong { display: block; color: var(--ink); font-size: 15px; margin-bottom: 4px; }
+    .decision-detail span { font-size: 14px; color: var(--ink-muted); line-height: 1.5; }
+
+    /* Rule card — for IRS thresholds */
+    .rule-card { background: var(--ink); border-radius: 14px; padding: 28px 32px; margin: 28px 0; color: var(--cream); }
+    .rule-card .rule-label { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(250,247,242,0.5); margin-bottom: 16px; }
+    .rule-card .rule-title { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; margin-bottom: 12px; }
+    .rule-card p { font-size: 15px; color: rgba(250,247,242,0.8); margin-bottom: 12px; line-height: 1.65; }
+    .rule-card p:last-child { margin-bottom: 0; }
+    .rule-card a { color: rgba(212,87,42,0.9); }
+
+    /* Checklist */
+    .checklist { margin: 28px 0; display: flex; flex-direction: column; gap: 10px; }
+    .checklist-item { display: flex; gap: 14px; align-items: flex-start; padding: 14px 18px; border-radius: 10px; background: var(--cream-dark); border: 1px solid var(--surface); }
+    .check-icon { flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%; background: var(--surface); display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+    .check-icon svg { width: 11px; height: 11px; fill: var(--ink-muted); }
+    .checklist-item strong { display: block; font-size: 15px; color: var(--ink); margin-bottom: 2px; }
+    .checklist-item span { font-size: 14px; color: var(--ink-muted); line-height: 1.5; }
+
+    /* Disclaimer */
+    .disclaimer { background: rgba(180,130,20,0.06); border: 1px solid rgba(180,130,20,0.2); border-radius: 12px; padding: 18px 22px; margin: 36px 0; }
+    .disclaimer p { font-size: 13px; color: var(--ink-muted); margin: 0; line-height: 1.6; }
+    .disclaimer strong { color: var(--ink); }
+
+    .cta-block { background: var(--ink); color: var(--cream); border-radius: 16px; padding: 36px 40px; margin: 52px 0 40px; text-align: center; }
+    .cta-block h3 { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--cream); margin-bottom: 12px; letter-spacing: -0.01em; }
+    .cta-block p { color: rgba(250,247,242,0.7); font-size: 15px; margin-bottom: 24px; }
+    .cta-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--cream); text-decoration: none; font-size: 15px; font-weight: 500; padding: 14px 28px; border-radius: 100px; transition: background 0.2s, transform 0.15s; }
+    .cta-btn:hover { background: #cc4a24; transform: translateY(-1px); }
+    .cta-note { display: block; font-size: 12px; color: rgba(250,247,242,0.5); margin-top: 12px; }
+
+    .related-posts { margin-top: 52px; padding-top: 32px; border-top: 1px solid var(--surface); }
+    .related-posts h4 { font-size: 13px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 16px; }
+    .related-link { display: block; color: var(--accent); text-decoration: none; font-size: 15px; font-weight: 500; margin-bottom: 10px; }
+    .related-link:hover { text-decoration: underline; }
+
+    footer { background: var(--surface); padding: 32px 40px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 19px; font-weight: 600; color: var(--ink); text-decoration: none; }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { font-size: 13px; color: var(--ink-muted); text-decoration: none; }
+    .footer-links a:hover { color: var(--ink); }
+    .footer-copy { font-size: 12px; color: var(--ink-faint); width: 100%; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      .article-wrapper { padding: 100px 20px 60px; }
+      .cta-block { padding: 28px 24px; }
+      .decision-row { grid-template-columns: 1fr; gap: 8px; }
+      footer { padding: 24px 20px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Do You Have to Pay Taxes for a Babysitter? The Household Employer Rules Explained",
+    "description": "If you pay a babysitter more than the IRS household employee threshold in a year, you may have tax obligations. Here's what that means, what you actually owe, and what you can deduct.",
+    "author": { "@type": "Organization", "name": "SitterLark" },
+    "publisher": { "@type": "Organization", "name": "SitterLark", "url": "https://sitterlark.com" },
+    "datePublished": "2026-04-10",
+    "url": "https://sitterlark.com/blog/babysitter-taxes"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "SitterLark", "item": "https://sitterlark.com" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://sitterlark.com/blog/" },
+      { "@type": "ListItem", "position": 3, "name": "Do You Have to Pay Taxes for a Babysitter?", "item": "https://sitterlark.com/blog/babysitter-taxes" }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you have to pay taxes for a babysitter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on how much you pay them per year. The IRS sets an annual household employee threshold (around $2,600–$2,700 for recent tax years — verify the current amount in IRS Publication 926). If you pay a single babysitter more than this threshold in a calendar year, you're considered a household employer and must withhold and pay FICA taxes, issue a W-2, and file Schedule H with your annual tax return. Under the threshold, no W-2 or tax withholding is required from you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I have to give my babysitter a 1099?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — babysitters are household employees, not independent contractors. If you pay over the IRS threshold, give them a W-2 (not a 1099). A 1099 would misclassify the arrangement and create tax problems for both parties. Under the threshold, no W-2 or 1099 is required, though the sitter may still have personal tax obligations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I claim a babysitter on my taxes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — through the Child and Dependent Care Credit (Form 2441). You can claim up to $3,000 in qualifying care expenses for one child, or $6,000 for two or more children. The credit reduces your tax bill by 20–35% of those expenses. You'll need your babysitter's Social Security number or ITIN to claim it, so it's worth getting that information early. This credit is separate from household employer obligations and is available even if you're under the W-2 threshold."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the nanny tax, and does it apply to babysitters?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The 'nanny tax' is the informal name for household employer payroll taxes — FICA (Social Security and Medicare), and potentially FUTA (federal unemployment tax). It applies to any household employee paid over the annual IRS threshold, including babysitters. The label 'nanny tax' is misleading — it's not about job title, it's about the payment amount. A babysitter you pay $300/week year-round triggers the same rules as a full-time nanny."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">SitterLark</a>
+    <a href="../index.html#waitlist" class="nav-cta">Get Early Access</a>
+  </nav>
+
+  <article class="article-wrapper">
+
+    <div class="article-meta">
+      <a href="./index.html" class="article-category">Payments</a>
+      <span class="article-date">April 10, 2026 · 6 min read</span>
+    </div>
+
+    <h1>Do You Have to Pay Taxes for a Babysitter?</h1>
+
+    <p class="article-intro">Most parents have a vague worry about this and never look it up. Here's the actual rule, what it requires, what you can deduct, and when you don't need to do anything at all.</p>
+
+    <p>The short answer: it depends on how much you pay. There's an IRS threshold, and whether you cross it determines whether you have any obligations as an employer. Most families who use a babysitter occasionally are well under it. Families with a regular, full-week sitter often aren't.</p>
+
+    <p>Either way, knowing where the line is — and what's on each side of it — removes the anxiety.</p>
+
+    <div class="disclaimer">
+      <p><strong>Note:</strong> This article explains general federal tax rules for household employers. Tax law changes, thresholds are adjusted annually, and your situation may vary. Consult IRS Publication 926 or a tax professional for your specific circumstances. This is not tax advice.</p>
+    </div>
+
+    <h2>The Threshold: The Number That Determines Everything</h2>
+
+    <p>The IRS sets an annual threshold for household employees. If you pay a single worker (babysitter, nanny, house cleaner, etc.) more than this amount in a calendar year, they become a household employee for tax purposes. For recent tax years it has been in the $2,600–$2,700 range — but the IRS adjusts it annually, so verify the current number in <a href="https://www.irs.gov/publications/p926" rel="noopener noreferrer" target="_blank">IRS Publication 926</a> before filing.</p>
+
+    <div class="rule-card">
+      <div class="rule-label">The Household Employee Rule</div>
+      <div class="rule-title">One number changes everything.</div>
+      <p>If you pay a babysitter <strong>less than the annual threshold</strong> across the full calendar year: no W-2 required, no FICA withholding required from you. The sitter may still have personal income tax obligations — that's between them and the IRS.</p>
+      <p>If you pay <strong>more than the annual threshold</strong> to the same person: you're a household employer. You need to withhold and pay FICA taxes, give them a W-2 by January 31, and file Schedule H with your 1040.</p>
+      <p>Check the current year's threshold at <a href="https://www.irs.gov/publications/p926" rel="noopener noreferrer" target="_blank">irs.gov/publications/p926</a>.</p>
+    </div>
+
+    <p>To put the threshold in context: at $20/hour for a 3-hour sit, that's about 45 sessions — roughly once a week for 10 months. Families who use a sitter every week for a full year will typically cross it. Families who use occasional babysitting most likely won't.</p>
+
+    <h2>What Triggers Household Employer Status</h2>
+
+    <p>A few things to know about how the threshold works in practice:</p>
+
+    <p><strong>It's per-worker, not total childcare spending.</strong> If you pay three different babysitters $1,200 each in a year, none of them cross the threshold individually — no household employer obligations for any of them, even though your total is $3,600.</p>
+
+    <p><strong>It resets every calendar year.</strong> A sitter you crossed the threshold with in 2025 starts at $0 again on January 1, 2026. If your usage drops, you may not cross it the following year.</p>
+
+    <p><strong>It applies to any household worker.</strong> The "nanny tax" label is informal. The rules apply equally to babysitters, housecleaners, personal assistants working in your home, and elderly care workers. The job title doesn't matter — the payment amount and employment structure do.</p>
+
+    <h2>What You Owe If You Cross the Threshold</h2>
+
+    <p>Once a babysitter crosses the annual threshold with you, here's what's required:</p>
+
+    <div class="checklist">
+      <div class="checklist-item">
+        <div class="check-icon">
+          <svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg>
+        </div>
+        <div>
+          <strong>Withhold the employee's share of FICA taxes</strong>
+          <span>7.65% of gross wages (6.2% Social Security + 1.45% Medicare). You can choose to pay this yourself instead of withholding it from their wages.</span>
+        </div>
+      </div>
+      <div class="checklist-item">
+        <div class="check-icon">
+          <svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg>
+        </div>
+        <div>
+          <strong>Pay the employer's share of FICA taxes</strong>
+          <span>Another 7.65% — this is your contribution, not withheld from the sitter. Total combined FICA is 15.3% of wages.</span>
+        </div>
+      </div>
+      <div class="checklist-item">
+        <div class="check-icon">
+          <svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg>
+        </div>
+        <div>
+          <strong>Issue a W-2 by January 31</strong>
+          <span>You'll need the sitter's legal name, address, and Social Security number. Get this information before the end of the tax year — requesting an SSN after the fact can be awkward.</span>
+        </div>
+      </div>
+      <div class="checklist-item">
+        <div class="check-icon">
+          <svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg>
+        </div>
+        <div>
+          <strong>File Schedule H with your Form 1040</strong>
+          <span>This is where household employment taxes are reported. You don't file a separate business return — Schedule H attaches to your personal return.</span>
+        </div>
+      </div>
+      <div class="checklist-item">
+        <div class="check-icon">
+          <svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg>
+        </div>
+        <div>
+          <strong>Potentially pay FUTA</strong>
+          <span>Federal unemployment tax applies if you paid more than $1,000 in any calendar quarter. Check current rules — state unemployment taxes may also apply.</span>
+        </div>
+      </div>
+    </div>
+
+    <p>This sounds like a lot, but household payroll services (GTM Payroll, Homepay by Care.com, SurePayroll) automate most of it for $50–100/month. For families with a regular, full-year sitter, the time savings are usually worth it.</p>
+
+    <h2>The 1099 Question</h2>
+
+    <p>A common mistake: giving a babysitter a 1099 instead of a W-2.</p>
+
+    <p>A 1099 is for independent contractors — people who set their own hours, work for multiple clients, and run their own business. Babysitters who work regularly in your home under your direction are household employees by IRS definition, not independent contractors.</p>
+
+    <p>If you issue a 1099 to a household employee, you've misclassified the arrangement. The sitter then pays self-employment tax (15.3%) on the full amount — the combined employer + employee share that should have been split. It's not a small mistake.</p>
+
+    <p>The correct path: under the threshold, no form required. Over the threshold, W-2. If you're unsure which applies, IRS Form SS-8 lets you formally request a determination.</p>
+
+    <h2>What You Can Deduct: The Child and Dependent Care Credit</h2>
+
+    <p>This is entirely separate from your obligations as an employer — and it's worth knowing even if you're under the household employee threshold.</p>
+
+    <p>The Child and Dependent Care Credit (Form 2441) lets you claim up to $3,000 in qualifying care expenses for one child under 13, or $6,000 for two or more children. The credit itself reduces your tax bill by 20–35% of those expenses depending on your income.</p>
+
+    <p>In practice: a family spending $10,000/year on babysitting can claim up to $3,000 in qualifying expenses, and get a credit of $600–$1,050 depending on their AGI. That's real money, not a rounding error.</p>
+
+    <p>What you need to claim it:</p>
+    <ul>
+      <li>Your babysitter's Social Security number or ITIN</li>
+      <li>Their name and address</li>
+      <li>The total you paid them for care</li>
+    </ul>
+
+    <p>Most parents don't ask their sitter for an SSN early enough. If you're spending enough on childcare to cross the credit threshold, get this information when you start the arrangement — asking after the fact is awkward and sometimes impossible if the relationship ends.</p>
+
+    <h2>The "Under the Threshold" Situation</h2>
+
+    <p>If you use a babysitter occasionally and the total stays under the annual IRS threshold, your obligations are straightforward: essentially none. No W-2, no FICA withholding, no Schedule H.</p>
+
+    <p>The sitter may still have personal income tax obligations — if they babysit for multiple families and the combined income is significant, they may owe self-employment tax. That's their responsibility, not yours.</p>
+
+    <p>You can still claim the Child and Dependent Care Credit for payments made to an under-threshold sitter, as long as you have their name, address, and SSN/ITIN. The credit has nothing to do with whether you crossed the household employer threshold.</p>
+
+    <h2>Why Payment Records Actually Matter Here</h2>
+
+    <p>Most families don't know they've crossed the threshold until after the fact — because nobody was tracking total annual payments to each sitter.</p>
+
+    <p>Keeping a running payment log serves two purposes: it tells you in real time whether you're approaching the threshold, and it's the source of truth for both the W-2 (if required) and the Child and Dependent Care Credit calculation.</p>
+
+    <p><a href="./babysitter-payment-tracking.html">Tracking babysitter payments</a> doesn't need to be complicated — a spreadsheet or a dedicated app both work. The key is that total annual payments per sitter are visible without having to reconstruct from Venmo history at tax time.</p>
+
+    <p>If you pay multiple sitters, the threshold applies per-person. Tracking each sitter's running total separately is more useful than a combined total.</p>
+
+    <h2>A Note on Nannies vs. Babysitters</h2>
+
+    <p>The household employer rules apply to both — but the practical situation often differs. A full-time nanny almost always crosses the annual threshold. A babysitter used occasionally often doesn't.</p>
+
+    <p>The legal distinction isn't about hours or title — it's about the payment amount. A babysitter who works three nights a week year-round is a household employee by IRS definition, even if both parties call the arrangement "babysitting." See our guide on <a href="./babysitter-vs-nanny.html">babysitter vs. nanny differences</a> for more on where the line falls practically.</p>
+
+    <h2>Quick Summary: Which Situation Are You In?</h2>
+
+    <div class="decision-block">
+      <div class="decision-row no">
+        <div class="decision-label">Under threshold</div>
+        <div class="decision-detail">
+          <strong>No household employer obligations</strong>
+          <span>No W-2, no FICA withholding, no Schedule H. You can still claim the Child and Dependent Care Credit if you have the sitter's SSN and paid qualifying expenses.</span>
+        </div>
+      </div>
+      <div class="decision-row yes">
+        <div class="decision-label">Over threshold</div>
+        <div class="decision-detail">
+          <strong>Household employer obligations apply</strong>
+          <span>Withhold + pay FICA, issue W-2 by Jan 31, file Schedule H. Consider a payroll service to automate it. Also claim the Child and Dependent Care Credit — the two are independent.</span>
+        </div>
+      </div>
+      <div class="decision-row no">
+        <div class="decision-label">Not sure</div>
+        <div class="decision-detail">
+          <strong>Track total payments per sitter for the calendar year</strong>
+          <span>If you can't find the running total easily, that's the first problem to solve. See <a href="./babysitter-payment-tracking.html">how to track babysitter payments</a>.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <p><strong>For authoritative guidance:</strong> <a href="https://www.irs.gov/publications/p926" rel="noopener noreferrer" target="_blank">IRS Publication 926 (Household Employer's Tax Guide)</a> is updated annually and is the definitive source. Your state may also have separate household employer rules.</p>
+    </div>
+
+    <div class="cta-block">
+      <h3>Know exactly what you've paid each sitter.</h3>
+      <p>SitterLark tracks hourly rates, sessions, and running payment totals per sitter — so you know where you stand before tax season, not after.</p>
+      <a href="../index.html#waitlist" class="cta-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Get Early Access — Free
+      </a>
+      <span class="cta-note">iOS · Free to start · No credit card required</span>
+    </div>
+
+    <div class="related-posts">
+      <h4>Related guides</h4>
+      <a href="./babysitter-payment-tracking.html" class="related-link">→ How to Track Babysitter Payments Without the Awkward Math</a>
+      <a href="./venmo-babysitter-payment.html" class="related-link">→ How to Use Venmo for Babysitter Payments (and What to Put in the Note)</a>
+      <a href="./babysitter-vs-nanny.html" class="related-link">→ Babysitter vs. Nanny: When the Difference Actually Matters</a>
+      <a href="./babysitter-rates-how-much-to-pay.html" class="related-link">→ How Much to Pay a Babysitter: 2026 Rates by Region</a>
+      <a href="./babysitter-cost-per-month.html" class="related-link">→ How Much Does a Babysitter Cost Per Month?</a>
+    </div>
+
+  </article>
+
+  <footer>
+    <a href="../index.html" class="footer-logo">SitterLark</a>
+    <nav class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="./index.html">Blog</a>
+      <a href="../support.html">Support</a>
+      <a href="../privacy.html">Privacy</a>
+    </nav>
+    <p class="footer-copy">© 2026 SitterLark. Built for two-parent households.</p>
+  </footer>
+
+</body>
+</html>
